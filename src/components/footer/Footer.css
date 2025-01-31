@@ -1,0 +1,69 @@
+/*Serin*/
+.footer {
+  background-color: #fae8da;
+  color: #0b0b0b;
+  text-align: center; 
+  position:static; 
+  bottom: 0%; 
+  left: 0%; 
+  width: 100%; 
+  height: 100%; 
+}
+
+.footer-table{
+  display: flex; 
+  justify-content: space-between;
+  max-width: 100%; 
+}
+
+.footer-content {
+  display: flex; 
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 5%;
+  max-width: 25%; 
+  text-align: left;
+}
+
+.footer-content a{
+  color:#0b0b0b;
+  text-decoration: none; 
+}
+
+.footer-navigation a {
+  color:#0b0b0b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-navigation a:hover {
+  color:#0b0b0b;
+  text-decoration: underline;
+}
+
+.footer-navigation {
+  display: flex; 
+  justify-content: flex-end;
+  max-width: 100%; 
+  margin-top: 10px;
+  margin-right: 5%;
+}
+
+.footer-navigation-1 {
+  display:flex;
+  flex-direction: column; 
+  justify-content: center;
+  padding: 60px;
+}
+
+.footer-navigation-2 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+}
+
+.copyright {
+  margin-bottom: 0px;
+  padding: 1%;
+}

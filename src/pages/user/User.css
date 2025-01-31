@@ -1,0 +1,115 @@
+.users-profile-user {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar-image-user {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.users-header-user {
+    background-image: url('./Background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    justify-content: center;
+    color:white;
+    padding: 30px;
+    margin-left: 80px;
+}
+
+.users-info-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 0.3;
+}
+
+.user-bio-user {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    padding: 1px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 200px; 
+    height: auto; 
+    max-height: 100px; 
+    overflow-x: auto; 
+    line-height: 1.5; 
+    box-shadow: 0 8px 10px rgba(0,0,0,0.1);
+    font-size: 16px;
+  }
+
+.table-container-user {
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.private_body{
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+     ),  
+    url('./Lock.JPG');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.message{
+    text-align: center;
+    padding: 20px;
+}
+
+.message p{
+    font-size: 36px;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.folders-user{
+    margin-left: 10%;
+}
+
+.folder-heading-user {
+    margin-top: 70px;
+    color: blue;
+  }
+  
+.folders-container-user {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    width: 1000px;
+    max-width: 1000px;
+}
+   
+.folder-item-user {
+    flex: 1 1 140px; 
+    max-width: 140px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    padding: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+}
+   
+.folder-header-user {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}

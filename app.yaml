@@ -1,0 +1,15 @@
+runtime: nodejs20
+env: standard
+
+handlers:
+  - url: /api/.*
+    script: auto
+
+  - url: /static
+    static_dir: build/static
+
+  - url: /.*
+    static_files: build/index.html
+    upload: build/index.html
+
+entrypoint: bash -c "cd backend && node mainServers.js"

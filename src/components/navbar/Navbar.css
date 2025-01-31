@@ -1,0 +1,56 @@
+/*Serin*/
+.header{
+    border-bottom: 2px solid black;
+}
+
+.navbar {
+    display: flex;
+    padding: 30px;
+    background-color: lightgray;
+    color: #0b0b0b;
+    justify-content: space-between;
+}
+
+.home a{
+    font-family: Holtwood One SC, sans-serif;
+    font-weight: 1000;
+    font-size: 20px;
+    color:#0b0b0b;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    width: 55%;
+}
+
+.nav-links button {
+    background-color: lightgray;
+    color:black;
+    padding: 10px 30px;
+    align-items: center;
+    border-radius: 20px;
+    cursor:pointer;
+}
+
+.auth {
+    display: flex;
+    gap: 25px;
+}
+
+.auth button {
+    background-color: lightgray;
+    color:black;
+    border-color: black;
+    padding: 10px 30px;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
